@@ -49,6 +49,7 @@ Set your environment variables in the `.env` file. Like `OPENAI_API_KEY` value.
 ## Run the FastAPI server
 
 ```bash
+$ export PYTHONPATH=$PYTHONPATH:./src
 $ uvicorn main:app --reload --host 0.0.0.0 --port 5000
 ```
 
